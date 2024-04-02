@@ -22,8 +22,8 @@ To get started, make sure you have the following software installed:
 
 ## Setup Minecraft Server
 
-1. Download the Minecraft server JAR file from [Minecraft's official website](https://www.minecraft.net/en-us/download/server).
-2. Place the downloaded `minecraft_server.jar` file in the main directory of your Raspberry Pi.
+1. Download the Minecraft server JAR file from [Minecraft's official website](https://www.minecraft.net/en-us/download/server) with wget.
+2. Place the downloaded `minecraft_server.jar` file in the same directory the Makefile.
 3. Start the Minecraft server with the following command:
    ```bash
    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
