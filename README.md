@@ -1,6 +1,4 @@
-Verstanden, hier ist der gesamte Markdown-Text in einem kopierbaren Block:
 
-```
 # Minecraft Server on Raspberry Pi
 
 This guide will walk you through setting up a Minecraft server on your Raspberry Pi using Ngrok for port forwarding and CallMeBot to receive the server hostname on WhatsApp.
