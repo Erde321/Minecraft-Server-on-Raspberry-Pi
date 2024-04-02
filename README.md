@@ -26,7 +26,7 @@ To get started, make sure you have the following software installed:
 2. Place the downloaded `minecraft_server.jar` file in the same directory as the Makefile.
 3. Start the Minecraft server with the following command:
    ```bash
-   java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+   java -Xmx1024M -Xms1024M -jar server.jar nogui
    ```
 4. Open the `eula.txt` file generated in the server directory and change `eula=false` to `eula=true`.
 
