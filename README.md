@@ -48,4 +48,3 @@ make stop
 ```
 
 That's it! Your Minecraft server should now be up and running on your Raspberry Pi. If you have any questions or issues, feel free to reach out for assistance. Enjoy your gaming!
-```
