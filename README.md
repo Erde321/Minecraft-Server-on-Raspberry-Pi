@@ -23,12 +23,15 @@ To get started, make sure you have the following software installed:
 ## Setup Minecraft Server
 
 1. Download the Minecraft server JAR file from [Minecraft's official website](https://www.minecraft.net/en-us/download/server) with wget.
-2. Place the downloaded `minecraft_server.jar` file in the same directory as the Makefile.
-3. Start the Minecraft server with the following command:
+   ```bash
+   wget "Download Link to Server.jar"
+   ```
+3. Place the downloaded `minecraft_server.jar` file in the same directory as the Makefile.
+4. Start the Minecraft server with the following command:
    ```bash
    java -Xmx1024M -Xms1024M -jar server.jar nogui
    ```
-4. Open the `eula.txt` file generated in the server directory and change `eula=false` to `eula=true`.
+5. Open the `eula.txt` file generated in the server directory and change `eula=false` to `eula=true`.
 
 ## Configure CallMeBot
 
