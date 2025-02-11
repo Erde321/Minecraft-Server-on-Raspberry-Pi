@@ -37,6 +37,7 @@ To get started, make sure you have the following software installed:
 
 1. Obtain your phone number and API key from [CallMeBot's website](https://www.callmebot.com/blog/free-api-whatsapp-messages/).
 2. Edit the `sendtext.py` file and insert your phone number and API key.
+3. 'callmebot.py' from https://github.com/stonatm/CallMeBot-Whatsapp-Signal needs to be in the directory 'callmebot'
 
 ## Starting and Stopping the Server
 
