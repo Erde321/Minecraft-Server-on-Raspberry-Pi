@@ -1,6 +1,6 @@
 start:
 	@echo "⚡️ Starting Minecraft server"
-	java -Xmx1024M -Xms1024M -jar server.jar nogui &
+	java -jar server.jar nogui &
 
 	@echo "⚡️ Starting ngrok"
 	@ngrok tcp 25565 > /dev/null &
