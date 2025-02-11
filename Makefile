@@ -18,7 +18,7 @@ start:
 		exit 1; \
 	fi && \
 	echo "✅ Ngrok remote URL: $$NGROK_REMOTE_URL" && \
-	python ./sendtext.py "$$NGROK_REMOTE_URL"
+	python ./callmebot/sendtext.py "$$NGROK_REMOTE_URL"
 
 	@while ! grep -q "For help" ./logs/latest.log; do \
 		sleep 2; \
